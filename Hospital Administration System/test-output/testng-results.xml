@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Doctor created Successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-26T23:59:03 IST" name="Suite" finished-at="2025-02-27T00:01:01 IST" duration-ms="118164">
+    <groups>
+    </groups>
+    <test started-at="2025-02-26T23:59:03 IST" name="Test" finished-at="2025-02-27T00:01:01 IST" duration-ms="118164">
+      <class name="com.has.testScripts.AdminModule">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.has.testScripts.AdminModule@59309333]" started-at="2025-02-26T23:59:03 IST" name="openBrowser" finished-at="2025-02-26T23:59:06 IST" duration-ms="3010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.has.testScripts.AdminModule@59309333]" started-at="2025-02-26T23:59:06 IST" name="login" finished-at="2025-02-26T23:59:18 IST" duration-ms="11618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createAdmin()[pri:0, instance:com.has.testScripts.AdminModule@59309333]" started-at="2025-02-26T23:59:18 IST" name="createAdmin" finished-at="2025-02-27T00:00:59 IST" duration-ms="100994" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Doctor created Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAdmin -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.has.testScripts.AdminModule@59309333]" started-at="2025-02-27T00:00:59 IST" name="logout" finished-at="2025-02-27T00:01:00 IST" duration-ms="1568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.has.testScripts.AdminModule@59309333]" started-at="2025-02-27T00:01:00 IST" name="closeBrowser" finished-at="2025-02-27T00:01:01 IST" duration-ms="902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.has.testScripts.AdminModule -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
